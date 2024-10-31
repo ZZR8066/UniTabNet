@@ -54,7 +54,7 @@ pip install requirements.txt
 
 
 ```
-cd UniTabNet/scripts/train/
+cd UniTabNet/scripts/unitabnet/train/
 sh train.sh
 ```
 
