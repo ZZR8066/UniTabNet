@@ -12,7 +12,7 @@ This repository contains the source code of UniTabNet: [UniTabNet: Bridging Visi
 
 ### Metric
 
-We use both F1-Measure [1] and Tree-Edit-Distance-based Similarity (TEDS) [2] metric, which are commonly adopted in table structure recognition literature and competitions, to evaluate the performance of our model for recognition of the table structure. The evaluation code can be found in in the `evaluation/eval.py` file.
+We use both F1-Measure [1] and Tree-Edit-Distance-based Similarity (TEDS) [2] metric, which are commonly adopted in table structure recognition literature and competitions, to evaluate the performance of our model for recognition of the table structure. The evaluation code can be found in in the `UniTabNet/runner/unitabnet/cal_teds.py` file.
 
 [1] [M. Hurst, A constraint-based approach to table structure derivation, in: ICDAR, 2003.](https://ieeexplore.ieee.org/document/1227792)
 
