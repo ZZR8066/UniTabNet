@@ -35,7 +35,7 @@ export master_port=10025
 
 if [[ $NNODES -gt 1 ]]; then
     python -m torch.distributed.launch --nproc_per_node $NGPUS --nnodes=$NNODES --node_rank=$RANK --master_addr=$MASTER_ADDR --master_port=$MASTER_PORT \
-        pretrain_pubtables.py \
+        train.py \
         --model_name_or_path $model_name_or_path \
         --output_dir $output_dir \
         --do_train \
@@ -56,7 +56,7 @@ if [[ $NNODES -gt 1 ]]; then
         --fp16
 else
 	python -m torch.distributed.launch --nproc_per_node=$NGPUS --master_port=$master_port \
-        pretrain_pubtables.py \
+        train.py \
         --model_name_or_path $model_name_or_path \
         --output_dir $output_dir \
         --do_train \
