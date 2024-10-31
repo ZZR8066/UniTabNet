@@ -4,8 +4,9 @@ This repository contains the source code of UniTabNet: [UniTabNet: Bridging Visi
 
 ### Introduction
 
-![UniTabNet](./images/UniTabNet.png)
-
+<p align="center">
+  <img src="./images/UniTabNet.png" alt="UniTabNet">
+</p>
  In this paper, we introduce UniTabNet, a novel framework for table structure parsing based on the image-to-text model. UniTabNet employs a “divide-and-conquer” strategy, utilizing an image-to-text model to decouple table cells and integrating both physical and logical decoders to reconstruct the complete table structure. We further enhance our framework with the Vision Guider, which directs the model’s focus towards pertinent areas, thereby boosting prediction accuracy. Additionally, we introduce the Language Guider to refine the model’s capability to understand textual semantics in table images. 
 
 
@@ -26,14 +27,16 @@ We perform comprehensive experiments on the PubTabNet, PubTa bles1M, WTW and iFL
 
 $\bullet$ Comparison with SOTA
 
-![Comparison with SOTA](./images/Comparison_with_SOTA.png)
+<p align="center">
+  <img src="./images/Comparison_with_SOTA.png" alt="Comparison_with_SOTA">
+</p>
 
 
 
 $\bullet$ Ablation Study
 
 <p align="center">
-  <img src="D:\study\UniTabNet\images\Ablation——Study.png" alt="Ablation——Study">
+  <img src="./images/Ablation_Study.png" alt="Ablation_Study">
 </p>
 
 ## Requirements
