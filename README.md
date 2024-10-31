@@ -23,7 +23,7 @@ We use both F1-Measure [1] and Tree-Edit-Distance-based Similarity (TEDS) [2] me
 
 ### Performance
 
-We perform comprehensive experiments on the PubTabNet, PubTa bles1M, WTW and iFLYTAB to verify the eﬀectiveness of UniTabNet.
+We perform comprehensive experiments on the PubTabNet, PubTables1M, WTW and iFLYTAB to verify the eﬀectiveness of UniTabNet.
 
 <span style="font-size: 20px;">•</span> Comparison with SOTA
 
