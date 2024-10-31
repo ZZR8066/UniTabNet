@@ -1,6 +1,6 @@
 # UniTabNet: Bridging Vision and Language Models for Enhanced Table Structure Recognition
 
-This repository contains the source code of UniTabNet: UniTabNet: Bridging Vision and Language Models for Enhanced Table Structure Recognition([ UniTabNet: Bridging Vision and Language Models for Enhanced Table Structure Recognition](https://arxiv.org/abs/2409.13148)).
+This repository contains the source code of UniTabNet:[ UniTabNet: Bridging Vision and Language Models for Enhanced Table Structure Recognition](https://arxiv.org/abs/2409.13148).
 
 ### Introduction
 
