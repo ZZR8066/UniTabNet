@@ -26,13 +26,13 @@ We perform comprehensive experiments on the PubTabNet, PubTa bles1M, WTW and iFL
 
 $\bullet$ Comparison with SOTA
 
-![Comparison with SOTA](./images/Comparison with SOTA.png)
+![Comparison with SOTA](./images/Comparison_with_SOTA.png)
 
 
 
 $\bullet$ Ablation Study
 
-![Ablation Study](./images/Ablation Study.png)
+![Ablation Study](./images/Ablation_Study.png)
 
 ## Requirements
 
