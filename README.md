@@ -50,7 +50,7 @@ We perform comprehensive experiments on the PubTabNet, PubTables1M, WTW and iFLY
 
 
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 
