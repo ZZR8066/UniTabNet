@@ -25,7 +25,7 @@ We use both F1-Measure [1] and Tree-Edit-Distance-based Similarity (TEDS) [2] me
 
 We perform comprehensive experiments on the PubTabNet, PubTa bles1M, WTW and iFLYTAB to verify the eﬀectiveness of UniTabNet.
 
-$\bullet$ Comparison with SOTA
+<span style="font-size: 20px;">•</span> Comparison with SOTA
 
 <p align="center">
   <img src="./images/Comparison_with_SOTA.png" alt="Comparison_with_SOTA">
@@ -33,7 +33,7 @@ $\bullet$ Comparison with SOTA
 
 
 
-$\bullet$ Ablation Study
+<span style="font-size: 20px;">•</span> Ablation Study
 
 <p align="center">
   <img src="./images/Ablation_Study.png" alt="Ablation_Study">
