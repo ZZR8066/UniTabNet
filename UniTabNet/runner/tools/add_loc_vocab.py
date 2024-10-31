@@ -8,7 +8,7 @@ import numpy as np
 sys.path.append('./')
 sys.path.append('../')
 sys.path.append('../../')
-from layoutlmft.models.gma import GMAConfig, GMAModel, GMALConfig
+from layoutlmft.models.unitabnet import UniTabNetConfig, UniTabNetModel
 from transformers import AutoTokenizer, AutoConfig
 
 origin_model_path = '/train21/mmu/permanent/zrzhang6/OCRMultiModalLLM/copy2rdg/datasets/tableqa/donut-base-finetuned-zhtrainticket-tsr/'
@@ -68,8 +68,8 @@ config_decoder = donut_config.decoder
 config_decoder.max_position_embeddings *= 3
 config_decoder.vocab_size = len(new_tokenizer.vocab)
 new_tokenizer = AutoTokenizer.from_pretrained(modified_model_path)
-config = GMAConfig.from_encoder_decoder_configs(config_encoder, config_decoder)
-model = GMAModel(config=config)
+config = UniTabNetConfig.from_encoder_decoder_configs(config_encoder, config_decoder)
+model = UniTabNetModel(config=config)
 
 # init model 
 checkpoint = torch.load(os.path.join(origin_model_path, 'pytorch_model.bin'), map_location='cpu')
